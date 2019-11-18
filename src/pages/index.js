@@ -19,7 +19,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hi people</h1>
-    <p>Write your Twitter thread with just some markdown.</p>
+    <p>Write your Twitter thread with only markdown.</p>
     <p>
       Here's how it works
       <ol>
@@ -33,11 +33,11 @@ const IndexPage = () => (
       <TwoColumn>
         <ThreadContainer.Provider>
           <div>
-            <h2>Write markdown here</h2>
+            <h2>Write markdown here ✍️</h2>
             <ThreadInput />
           </div>
           <div>
-            <h2>Your twitter thread</h2>
+            <h2>Your twitter thread 👇</h2>
             <ThreadRender />
           </div>
         </ThreadContainer.Provider>
